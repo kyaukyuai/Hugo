@@ -1,0 +1,11 @@
+baseurl = "https://kyaukyuai.github.io/"
+languageCode = "en-us"
+title = "MeMo.kyaukyuai"
+author = "Yuya Kakui"
+copyright = "Copyright(C)"
+canonifyurls = true
+paginate = 3
+theme = "hugo_theme_robust"
+
+[Params]
+GoogleAnalyticsUserID = "UA-79859752-1"
