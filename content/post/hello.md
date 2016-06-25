@@ -3,7 +3,7 @@ title = "HugoとGitHub Pagesで始めるブログ + Werckerによる記事公開
 date = "2016-06-22T22:20:21+09:00"
 draft = false
 description = ""
-tags = ["hugo", "github", "wercker", "blog"]
+tags = ["hugo", "github", "wercker", "disqus", "googole analytics"]
 categories = ["operation"]
 image = "image.jpg"
 +++
