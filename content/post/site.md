@@ -1,10 +1,10 @@
 +++
-title = "Webサイト構築・開発に便利なサイト一覧"
+title = "(追記予定)Webサイト構築・開発に便利なサイト一覧"
 date = "2016-06-25T12:01:12+09:00"
 draft = true
 description = ""
-tags = ["", ""]
-categories = ["", ""]
+tags = ["wercker", "hugo"]
+categories = ["tools"]
 image = "site.jpeg"
 toc = false
 +++
