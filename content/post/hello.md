@@ -5,7 +5,7 @@ draft = false
 description = ""
 tags = ["hugo", "github", "wercker", "disqus", "googole analytics"]
 categories = ["operation"]
-image = "image.jpg"
+image = "hello.jpeg"
 +++
 
 [モダン静的HTMLジェネレータHugo](http://gohugo.io/)とGitHubPagesを利用してブログを始めるための手続きを書き記す.
