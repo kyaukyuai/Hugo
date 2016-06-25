@@ -9,3 +9,5 @@ theme = "hugo_theme_robust"
 
 [Params]
 GoogleAnalyticsUserID = "UA-79859752-1"
+comment = true
+disqusShortname = "memo-kyaukyuai"
