@@ -29,6 +29,10 @@ image = "site.jpeg"
 
 - [Image2icon](http://www.img2icnsapp.com/)
 
+## サイト分析
+
+- [Google analytics](https://www.google.com/analytics/)
+
 ## その他
 
 - [wercker](https://app.wercker.com/#)

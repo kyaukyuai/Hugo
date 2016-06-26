@@ -1,5 +1,5 @@
 +++
-title = "HugoとGitHub Pagesで始めるブログ + Werckerによる記事公開の自動化"
+title = "HugoとGitHubPagesで始める無料でのブログ運営 + Werckerによる記事公開の自動化"
 date = "2016-06-22T22:20:21+09:00"
 draft = false
 description = ""
@@ -8,23 +8,28 @@ categories = ["operation"]
 image = "hello.jpeg"
 +++
 
-[モダン静的HTMLジェネレータHugo](http://gohugo.io/)とGitHubPagesを利用してブログを始めるための手続きを書き記す.
-普段ちょっと勉強したりしたことを忘れてしまうことが多いので、少しでも備忘録として残していけたらと思う.
+[モダン静的HTMLジェネレータHugo](http://gohugo.io/)と[GitHubPages](https://pages.github.com/)を利用して無料でブログを開設するための手続きを書き記す.
+また、CI-as-a-Serviceとして有名な[Wercker](http://wercker.com/)を利用して記事公開までの流れを自動化する.
 
+自分の動機・モチベーションとしては、普段ちょっと勉強したりしたことを忘れてしまうことが多いので、少しでも備忘録として残していくことである.
 
 ## Hugoのインストール
 
-macの場合は下記コマンドでインストール可能.
+まずは、Hugoのインストールを行う.
+macの場合は下記コマンドでインストール可能である.
+公式のインストール手順は[ココ](https://gohugo.io/overview/installing/).
 
 ```
 brew install hugo
 hugo version
+// it should be as follows.
 Hugo Static Site Generator v0.16 BuildDate: 2016-06-06T21:37:59+09:00
 ```
 
 ## Hugo作業用ディレクトリの作成
 
 下記コマンドでサイト作成の作業用ディレクトリが作成できる.
+ここでの作業用ディレクトリ名と実際のサイト名は関係ないので、Hugo作業用ディレクトリということが認識できれば問題ない.
 
 ```
 hugo site new #{site_name}
