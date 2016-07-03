@@ -23,6 +23,8 @@ Webサイトやブログの構築・開発の際に自分が利用している�
 
 ## ロゴ作成
 
+自分の趣味サイトの場合は、こちらのサイトを使って作成している.
+
 - [squarespace](https://www.squarespace.com/logo#)
 
 ## 画像編集
@@ -35,16 +37,31 @@ Webサイトやブログの構築・開発の際に自分が利用している�
 
 - [Google analytics](https://www.google.com/analytics/)
 
-## その他
 
-- [wercker](https://app.wercker.com/#)
+## Markdown記法
+
+-  [Qiita:Markdown記法チートシート](http://qiita.com/Qiita/items/c686397e4a0f4f11683d#images---%E7%94%BB%E5%83%8F%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF)
+
+## CIaaS
+
+- [wercker](https://app.wercker.com/)
+
+- [CircleCI](https://circleci.com/)
+
+## 静的ページ作成エンジン
+
+関連記事: [HugoとGitHubPagesで始める無料でのブログ運営 + Werckerによる記事公開の自動化](https://kyaukyuai.github.io/post/hello/)
 
 - [Hugo](https://gohugo.io/)
+
+## Others
 
 - [kyaukyuai.github.io](https://kyaukyuai.github.io/)
 
 - [github](https://github.com/)
 
-- [非デザイナーエンジニアが一人でWebサービスを作るときに便利なツール32選](http://qiita.com/okappy/items/119e31cae9aa9bd9da6d)
+- Heroku
 
--  [markdown](http://qiita.com/Qiita/items/c686397e4a0f4f11683d#images---%E7%94%BB%E5%83%8F%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF)
+- Goole Cloud Platform
+
+- Slack
