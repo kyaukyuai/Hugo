@@ -16,7 +16,8 @@ image = "hello.jpeg"
 ## Hugoのインストール
 
 まずは、Hugoのインストールを行う.
-macの場合は下記コマンドでインストール可能である.
+macの場合は下記コマンドでインストール可能.
+
 公式のインストール手順は[ココ](https://gohugo.io/overview/installing/).
 
 ```
@@ -29,12 +30,13 @@ Hugo Static Site Generator v0.16 BuildDate: 2016-06-06T21:37:59+09:00
 ## Hugo作業用ディレクトリの作成
 
 下記コマンドでサイト作成の作業用ディレクトリが作成できる.
-ここでの作業用ディレクトリ名と実際のサイト名は関係ないので、Hugo作業用ディレクトリということが認識できれば問題ない.
+ここでの作業用ディレクトリ名と実際のサイト名は関係ないので、Hugo作業用ディレクトリということが認識できる名前であれば問題ない.
 
 ```
-hugo site new #{site_name}
+hugo new site #{site_name}
 cd #{site_name}
 ls -lh
+// command result shoule be as follows.
 total 8
 drwxr-xr-x  2 kyaukyuai  staff   68  6 22 22:17 archetypes
 -rw-r--r--  1 kyaukyuai  staff  199  6 22 22:57 config.toml
@@ -47,7 +49,8 @@ drwxr-xr-x  3 kyaukyuai  staff  102  6 22 22:18 themes
 
 ## テーマのインストール
 
-[公式テーマ一覧(http:://themes.gohugo.io/)](http://themes.gohugo.io/)よりお気に入りのテーマを探し、インストールする.ここでは、[hugo_theme_robust](http://themes.gohugo.io/robust/)を選択した例を示す.
+[公式テーマ一覧](http://themes.gohugo.io/)よりお気に入りのテーマを探し、インストールする.
+ここでは、[hugo_theme_robust](http://themes.gohugo.io/robust/)を選択した例を示す.
 
 ```
 cd themes
@@ -56,30 +59,26 @@ git clone https://github.com/dim0627/hugo_theme_robust.git
 
 ## 記事の作成
 
-下記コマンドで記事のテンプレートを作成し、`hello.md`を編集することで記事を編集していこう.
+下記コマンドで記事のテンプレートを作成し、テンプレート(`hello.md`)を編集することで記事を作成できる.
 
 ```
 hugo new post/hello.md
 ls -l content/post/hello.md
 cat content/post/hello.md
 
+// command result should be as follows.
 +++
-title = "HugoとGitHubで始めるブログ"
-date = "2016-06-22T22:20:21+09:00"
+date = "2016-07-03T17:19:38+09:00"
 draft = true
-description = ""
-tags = ["hugo", "github", "blog"]
-categories = ["operation"]
-image = "image.jpg"
-+++
-contents here
+title = "hello"
 
++++
 ```
 
 ## 記事の確認
 
 ```
-hugo serve -w -D
+hugo server -w -D -t hugo_theme_robust
 ```
 
 wオプションを有効にすることで、記事が編集するとオートリロードされる.
