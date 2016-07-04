@@ -4,7 +4,7 @@ title = "MeMo.kyaukyuai"
 author = "Yuya Kakui"
 copyright = "Copyright(C)"
 canonifyurls = true
-paginate = 3
+paginate = 4
 theme = "hugo_theme_robust"
 
 [Params]
