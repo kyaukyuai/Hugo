@@ -56,11 +56,23 @@ Webサイトやブログの構築・開発の際に自分が利用している�
 
 - [Hugo](https://gohugo.io/)
 
+## アプリ作成関連
+
+アプリのマーケティングページの作成から、スクリーンショットの作成まで、アプリリリースに向けて必要な一通りの作業を担ってくれるサービス.
+
+- [launchkit](https://launchkit.io/)
+
+アプリ作成時のアイコンはこちらから.
+
+- [icons8](https://icons8.com/)
+
 ## Others
 
 - [kyaukyuai.github.io](https://kyaukyuai.github.io/)
 
 - [github](https://github.com/)
+
+- [bitbucket](https://bitbucket.org)
 
 - Heroku
 
