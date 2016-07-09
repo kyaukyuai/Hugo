@@ -88,7 +88,22 @@ applications:
 
 また、herokuのgithubコネクトと同様にBluemix側にgitのレポジトリを指定すれば、githubにpushからの自動アップデートが実現できます.
 
+# Tips
+
+
+### Bluemix CLI
+
+`Clound Foundry`の`cf`コマンドに代わる`bleumix Cli`が登場している.
+
+[こちら](http://clis.ng.bluemix.net/ui/home.html)からダウンロード可能です.
+
+### Organizationの設定に注意
+
+Organizationのロケーションとして、2016年7月9日現在で3箇所(シドニー、英国、米国南部)選択可能であるが、どこを選ぶかによってAPIのEndpointで指定するURLを変わってくるので注意を.
+
 # 参考
+
+- [Bluemix CLI](http://clis.ng.bluemix.net/ui/home.html)
 
 - [github:hubot](https://github.com/github/hubot/blob/master/docs/index.md)
 
