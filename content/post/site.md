@@ -76,6 +76,8 @@ Webサイトやブログの構築・開発の際に自分が利用している�
 
 - Heroku
 
+- [IBM Bluemix](https://console.au-syd.bluemix.net/)
+
 - Goole Cloud Platform
 
 - Slack
