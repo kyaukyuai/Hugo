@@ -33,6 +33,8 @@ Webサイトやブログの構築・開発の際に自分が利用している�
 
 - [GIMP](https://www.gimp.org/)
 
+    - [画像タイプを指定して保存する方法](http://xn--gimp-j79hm9d2w6i.com/gimp-image-transmission-png-save/)
+
 - [Image2icon](http://www.img2icnsapp.com/)
 
 ## サイト分析

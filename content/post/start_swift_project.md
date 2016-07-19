@@ -101,7 +101,7 @@ file_length:
 
 # Fabric
 
-次回更新予定.
+Fabricの指示に従って進めると特につまづくところはない.
 
 # Reference
 
