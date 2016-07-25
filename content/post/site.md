@@ -1,10 +1,15 @@
 +++
-title = "Webサイト構築・開発に便利なサイト一覧"
+author = "kyaukyuai"
+categories = ["wercker", "hugo"]
 date = "2016-06-25T12:01:12+09:00"
-description = ""
-tags = ["wercker", "hugo"]
-categories = ["tools"]
-image = "site.jpeg"
+description = "よく利用する便利なサイトをまとめよう."
+featured = "site.jpeg"
+featuredalt = "site_image"
+featuredpath = "/images"
+linktitle = ""
+title = "Webサイト構築・開発に便利なサイト一覧"
+type = "post"
+
 +++
 
 (最終更新日時: 2016/06/26)

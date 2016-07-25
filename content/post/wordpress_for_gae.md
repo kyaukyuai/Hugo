@@ -1,10 +1,15 @@
 +++
-title = "Google App Engine で始める WordPressでのサイト構築"
+author = "kyaukyuai"
+categories = ["wordpress", "google app engine"]
 date = "2016-06-26T11:14:00+09:00"
-description = ""
-tags = ["wordpress", "google app engine"]
-categories = ["operation"]
-image = "wordpress_for_gae.jpeg"
+description = "初心者から抜け出したい."
+featured = "wordpress_for_gae.jpeg"
+featuredalt = "wordpress_for_gae_image"
+featuredpath = "/images"
+linktitle = ""
+title = "Google App Engine で始める WordPressでのサイト構築"
+type = "post"
+
 +++
 
 近頃、耳にする機会の増えている[GCP(Google Cloud Platform)](https://cloud.google.com/)、2016年後半には日本リージョンの開設も予定されている.

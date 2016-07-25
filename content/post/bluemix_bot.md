@@ -1,10 +1,15 @@
 +++
-title = "Bluemixで始める無料bot運用 - Hubot編 -"
+author = "kyaukyuai"
+categories = ["bluemix", "hubot"]
 date = "2016-07-09T08:48:29+09:00"
-description = ""
-tags = ["bluemix", "hubot"]
-categories = ["tools", "bot", "operation"]
-image = "bluemix_bot2.jpeg"
+description = "流行りのBluemix, 流行りのBot"
+featured = "bluemix_bot2.jpeg"
+featuredalt = "bluemix_bot"
+featuredpath = "/images"
+linktitle = ""
+title = "Bluemixで始める無料bot運用 - Hubot編 -"
+type = "post"
+
 +++
 
 [Bluemix](https://console.au-syd.bluemix.net/)を利用して24時間稼働のbotを無料で運用したいということで実施しました.

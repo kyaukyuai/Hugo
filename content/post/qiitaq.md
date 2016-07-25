@@ -1,11 +1,14 @@
 +++
-title = "初iOSアプリ公開(QiitaQ)"
+author = "kyaukyuai"
+categories = ["swift", "ios"]
 date = "2016-07-04T22:09:04+09:00"
-description = ""
-tags = ["swift", "app"]
-categories = ["ios"]
-image = "qiitaq_image.png"
-toc = false
+description = "1週間でiOSアプリを作ってみた"
+featured = "qiitaq_image.png"
+featuredalt = "qiitaq_image"
+featuredpath = "/images"
+linktitle = ""
+title = "初iOSアプリ公開(QiitaQ)"
+type = "post"
 
 +++
 

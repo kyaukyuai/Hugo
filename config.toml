@@ -1,13 +1,96 @@
 baseurl = "https://kyaukyuai.github.io/"
 languageCode = "en-us"
 title = "MeMo.kyaukyuai"
-author = "Yuya Kakui"
-copyright = "Copyright(C)"
-canonifyurls = true
-paginate = 8
-theme = "hugo_theme_robust"
-
-[Params]
-GoogleAnalyticsUserID = "UA-79859752-1"
-comment = true
+theme = "hugo-future-imperfect"
+preserveTaxonomyNames = true
+paginate = 5
 disqusShortname = "memo-kyaukyuai"
+googleAnalytics = "UA-79859752-1"
+
+[params]
+  # Sets the meta tag description, usually reserved for the main page
+  description = "HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo"
+  navbarTitle = "MeMo.kyaukyuai"
+  # Social media buttons that appear on the sidebar
+  socialAppearAtTop = true
+  socialAppearAtBottom = true
+  viewMorePostLink = "/post/"
+
+  categoriesByCount = true
+  includeReadingTime = true
+  loadFavicon = false
+  faviconVersion = ""
+
+[params.intro]
+  header = "MeMo.kyaukyuai"
+
+  paragraph = "日々の学習を備忘録として記述していきます. <i class='fa fa-hand-peace-o'></i>"
+
+  about = "about.me"
+
+# This will also appear on the sidebar.
+# A width of less than 100px is recommended
+# This is optional
+[params.intro.pic]
+    src = "/images/memo.kyaukyuai.logo.main.png"
+    # modify your picture in the shape of a circle or
+    circle = false
+    imperfect = true
+    width = ""
+    alt = "MeMo.kyaukyuai"
+
+# Adjust the amount of recent posts on the sidebar.
+# This is optional. The default value 5 will be used
+[params.postAmount]
+  sidebar = 4
+
+# Set up your menu items in the navigation bar
+# You can use identifier to prepend a font awesome icon to your text
+[[menu.main]]
+    name = "Post"
+    url = "/post"
+    identifier = "fa fa-newspaper-o"
+    weight = 1
+
+[[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 2
+
+[[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 3
+
+# Insert your username and the icon will apear on the page as long as
+# socialAppearAtTop or socialAppearAtBottom is set to true in the params area
+# The social media icons will appear on the sidebar
+[social]
+    github          = "kyaukyuai"
+    bitbucket       = ""
+    jsfiddle        = ""
+    codepen         = ""
+    foursquare      = ""
+    dribbble        = ""
+    deviantart      = ""
+    behance         = ""
+    flickr          = ""
+    instagram       = ""
+    youtube         = ""
+    vimeo           = ""
+    vine            = ""
+    medium          = ""
+    wordpress       = ""
+    tumblr          = ""
+    xing            = ""
+    linkedin        = ""
+    slideshare      = ""
+    stackoverflow   = ""
+    reddit          = ""
+    pinterest       = ""
+    googleplus      = ""
+    facebook        = ""
+    facebook_admin  = ""
+    twitter_domain  = ""
+    twitter         = "kyaukyuai"
+    email           = ""

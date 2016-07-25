@@ -1,10 +1,15 @@
 +++
-title = "新規Swiftプロジェクト作成時に最初にやること"
+author = "kyaukyuai"
+categories = ["ios", "swift", "lint", "git", "pod"]
 date = "2016-07-17T23:43:42+09:00"
-description = ""
-tags = ["ios", "swift", "lint", "git", "pod"]
-categories = ["operation"]
-image = "start_swift_project.jpg"
+description = "初心者から抜け出したい."
+featured = "start_swift_project.jpg"
+featuredalt = "start_swift_project_image"
+featuredpath = "/images"
+linktitle = ""
+title = "新規Swiftプロジェクト作成時に最初にやること"
+type = "post"
+
 +++
 
 (最終更新日時: 2016/07/18)

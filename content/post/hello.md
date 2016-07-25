@@ -1,11 +1,15 @@
 +++
-title = "HugoとGitHubPagesで始める無料でのブログ運営 + Werckerによる記事公開の自動化"
+author = "kyaukyuai"
+categories = ["hugo", "github", "wercker", "disqus", "googole analytics"]
 date = "2016-06-22T22:20:21+09:00"
-draft = false
-description = ""
-tags = ["hugo", "github", "wercker", "disqus", "googole analytics"]
-categories = ["operation"]
-image = "hello.jpeg"
+description = "Let's start your blog."
+featured = "hello.jpeg"
+featuredalt = "hello"
+featuredpath = "/images"
+linktitle = ""
+title = "HugoとGitHubPagesで始める無料でのブログ運営 + Werckerによる記事公開の自動化"
+type = "post"
+
 +++
 
 [モダン静的HTMLジェネレータHugo](http://gohugo.io/)と[GitHubPages](https://pages.github.com/)を利用して無料でブログを開設するための手続きを書き記す.
