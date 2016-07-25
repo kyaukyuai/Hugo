@@ -79,3 +79,10 @@ http://localhost:3000
 | rake db:migrate                          | docker-compose run web rake db:migrate      |
 | rails dbconsole                          | docker-compose run web rails dbconsole      |
 | RAILS_ENV=test bundle exec rake db:setup | docker-compose run -e RAILS_ENV=test web bundle exec rake db:setup |
+
+
+# Webサーバのスケールアウト
+
+```
+docker-compose scale web=3
+```

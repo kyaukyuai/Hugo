@@ -6,7 +6,7 @@ box: debian
 build:
   steps:
     - arjen/hugo-build:
-        theme: hugo_theme_robust
+        theme: hugo-future-imperfect
         version: "0.15"
         flags: --buildDrafts=true
         
